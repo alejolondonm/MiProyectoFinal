@@ -4,8 +4,9 @@ Mi Proyecto Final es un portal WiKi sobre mi artista favorita (Taylor Swift), qu
 
 ## ¿Qué comandos se deben de ejecutar para el correcto uso del script?
 ###### Convierte el archivo ejecutable
-##### sudo chmod u+x Alejo_Script.sh
-
+```
+sudo chmod u+x Alejo_Script.sh
+```
 ###### Ejecuta el script
 ##### sudo ./Alejo_Script.sh
 
