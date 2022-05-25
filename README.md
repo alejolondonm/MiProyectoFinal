@@ -1,8 +1,8 @@
-# Mi Proyecto Final
+# Mi Proyecto Final :dvd:
 ### Tema Del Proyecto
 Mi Proyecto Final es un portal WiKi sobre mi artista favorita (Taylor Swift), que incluye con algunos datos generales de su vida y carrera artística, su discografía y su impacto en la industria musical. :minidisc: 
 
-## ¿Qué comandos se deben de ejecutar para el correcto uso del script?
+## ¿Qué comandos se deben de ejecutar para el correcto uso del script? :musical_keyboard:
 ###### Convierte el archivo ejecutable
 ```
 sudo chmod u+x Alejo_Script.sh
@@ -12,7 +12,7 @@ sudo chmod u+x Alejo_Script.sh
 sudo ./Alejo_Script.sh
 ```
 
-## Comandos que ejecuta Script "Alejo_Script.sh"
+## Comandos que ejecuta Script "Alejo_Script.sh" :banjo:
 
 ###### Actualiza los paquetes. 
 `apt update`
@@ -35,7 +35,7 @@ sudo ./Alejo_Script.sh
 ###### Crea el contenedor y lo enciende.
 `docker run -d -p 80:80 mipagina:v1 apachectl -D FOREGROUND`
 
-## Contenido Del Repositorio
+## Contenido Del Repositorio :guitar:
 #### 1. Carpeta MiProyectoFinal: Contiene el archivo index.html, junto de recursos e imagenes que utiliza la página web
 #### 2. Dockerfile: Archivo que contiene todos los comandos que se van a ejecutar para crear una imagen.
 #### 3. ReadMe: Archivo que contiene las instrucciones para ejecutar efectivamente el script y el contenido del repositorio.
