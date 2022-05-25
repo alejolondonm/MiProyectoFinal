@@ -35,7 +35,7 @@ sudo ./Alejo_Script.sh
 ###### Crea el contenedor y lo enciende.
 `docker run -d -p 80:80 mipagina:v1 apachectl -D FOREGROUND`
 
-##Contenido Del Repositorio
+## Contenido Del Repositorio
 #### 1. Carpeta MiProyectoFinal: Contiene el archivo index.html, junto de recursos e imagenes que utiliza la página web
 #### 2. Dockerfile: Archivo que contiene todos los comandos que se van a ejecutar para crear una imagen.
 #### 3. ReadMe: Archivo que contiene las instrucciones para ejecutar efectivamente el script y el contenido del repositorio.
