@@ -8,27 +8,29 @@ Mi Proyecto Final es un portal WiKi sobre mi artista favorita (Taylor Swift), qu
 sudo chmod u+x Alejo_Script.sh
 ```
 ###### Ejecuta el script
-##### sudo ./Alejo_Script.sh
+```
+sudo ./Alejo_Script.sh
+```
 
 ## Comandos que ejecuta Script "Alejo_Script.sh"
 
 ###### Actualiza los paquetes. 
-##### apt update
+`apt update`
 
 ###### Instala Docker, para poder crear el contenedor.
-##### apt install docker-compose -y
+`apt install docker-compose -y`
 
 ###### Insata Git, para poder manejar repositorios de git.
-##### apt install git-core -y
+`apt install git-core -y`
 
 ###### Se translada de ubicación al home.
-##### cd /home/
+`cd /home/`
 
 ###### Clona todos los archivos y carpetas del repositorio que responde a esa URL.
-##### git clone https://github.com/alejolondonm/MiProyectoFinal.git
+`git clone https://github.com/alejolondonm/MiProyectoFinal.git`
 
 ###### Construye la imagen, como plantilla para crear el contenedor.
-##### docker build -t mipagina:v1 MiProyectoFinal/
+`docker build -t mipagina:v1 MiProyectoFinal/`
 
 ###### Crea el contenedor y lo enciende.
-##### docker run -d -p 80:80 mipagina:v1 apachectl -D FOREGROUND
+`docker run -d -p 80:80 mipagina:v1 apachectl -D FOREGROUND`
