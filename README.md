@@ -36,6 +36,7 @@ sudo ./Alejo_Script.sh
 `docker run -d -p 80:80 mipagina:v1 apachectl -D FOREGROUND`
 
 ## Contenido Del Repositorio :guitar:
-#### 1. Carpeta MiPaginaWeb: Contiene el archivo index.html, junto de recursos e imagenes que utiliza la página web. Cabe resaltar que la página web es una edición de una plantilla encontrada en internet, por ende no es de mi propiedad; yo solo la edité a mi gusto, para el proyecto.
+#### 1. Carpeta MiPaginaWeb: Contiene el archivo index.html, junto de recursos e imagenes que utiliza la página web. 
+###### Cabe resaltar que la página web es una edición de una plantilla encontrada en internet, por ende no es de mi propiedad; yo solo la edité a mi gusto, para el proyecto.
 #### 2. Dockerfile: Archivo que contiene todos los comandos que se van a ejecutar para crear una imagen.
 #### 3. ReadMe: Archivo que contiene las instrucciones para ejecutar efectivamente el script y el contenido del repositorio.
