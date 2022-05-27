@@ -32,7 +32,7 @@ sudo ./Alejo_Script.sh
 ###### Construye la imagen, como plantilla para crear el contenedor.
 `docker build -t mipagina:v1 MiProyectoFinal/`
 
-###### Crea el contenedor y lo enciende.
+###### Crea el contenedor, lo enciende y lo asigna al puerto 80.
 `docker run -d -p 80:80 mipagina:v1 apachectl -D FOREGROUND`
 
 ## Contenido Del Repositorio :guitar:
