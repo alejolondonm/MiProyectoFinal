@@ -12,7 +12,7 @@ sudo chmod u+x Alejo_Script.sh
 sudo ./Alejo_Script.sh
 ```
 
-## Comandos que ejecuta Script "Alejo_Script.sh" :banjo:
+## Comandos que ejecuta el script (Alejo_Script.sh) :banjo:
 
 ###### Actualiza los paquetes. 
 `apt update`
